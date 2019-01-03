@@ -41,7 +41,7 @@ class App extends Component {
   show = () =>{
     const switchShowall = this.state.showall;
     this.setState({
-      showall: !switchShowall
+      showall: !switchShowall,
     })
   }
 
